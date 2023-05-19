@@ -6,6 +6,9 @@ FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
 
+/* Google font Inter 400, 500, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +18,9 @@ FONT SIZE SYSTEM (px)
 /* ------------------------ */
 /* GENERAL STYLES */
 /* ------------------------ */
+
 body {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -30,6 +34,8 @@ section {
 }
 
 h2 {
+  font-size: 36px;
+  letter-spacing: -0.5px;
   margin-bottom: 48px;
 }
 
@@ -57,10 +63,15 @@ header {
 
 h1 {
   margin-bottom: 24px;
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
 }
 
 .header-text {
   margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 img {
@@ -72,10 +83,13 @@ img {
 }
 
 .features-title {
+  font-size: 20px;
   margin-bottom: 16px;
 }
 
 .features-text {
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 /* TESTIMONIAL */
@@ -88,11 +102,14 @@ img {
 }
 
 .testimonial-box h2 {
+  font-size: 24px;
   margin-bottom: 24px;
 }
 
 .testimonial-text {
   font-style: italic;
+  font-size: 18px;
+  line-height: 1.5;
   margin-bottom: 24px;
 }
 
@@ -127,8 +144,10 @@ h3 {
 .chair-price {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 footer {
+  font-size: 14px;
   margin-bottom: 48px;
 }
